@@ -1,7 +1,7 @@
 # Set Seed
 set.seed(1234)
 
-# Load Library
+# Load Package
 library(tidyverse)
 library(hrbrthemes)
 library(scales)
