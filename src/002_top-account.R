@@ -8,8 +8,7 @@ library(scales)
 library(lubridate)
 
 # Load data
-df <- read_rds("data/tweet-whatsappdown.rds") %>%
-  mutate(created_at = as_date(created_at))
+df <- read_rds("data/tweet-whatsappdown.rds") 
 
 # Mencari Akun dengan Jumlah Tweet Terbanyak
 top_account <- df %>%
